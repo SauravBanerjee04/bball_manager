@@ -1,0 +1,11 @@
+# Python
+pipeline/.venv/
+__pycache__/
+.pytest_cache/
+
+# Scraped data: rebuildable from the cache runs, and not ours to redistribute
+data/raw/
+data/stats.db
+
+# NBA 2K ratings are a training label only. Never commit them.
+data/labels/
